@@ -7,10 +7,7 @@ const About = () => {
         <div className={`md:flex-1 order-1`}>
           <h3 className={`text-2xl text-gray-400 font-medium`}>About Me</h3>
           <p className={`text-sm`}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Accusantium fugiat nesciunt minima, esse repellat natus dicta
-            tempora quibusdam. Tenetur dicta, sunt perferendis exercitationem
-            adipisci omnis eligendi quidem minima aliquam nobis.
+            I'm a passionate developer, interested in building modern, user-friendly web applications. I enjoy exploring and learning various technologies to improve my skills. I aim to to be full stack developer. I am also interested in Game Development.
           </p>
         </div>
 
