@@ -2,7 +2,7 @@ import { facebook, github, linkedin, inbox } from "../assets/index.js";
 
 const About = () => {
   return (
-    <section id="about" className={`bg-gray-100`}>
+    <section id="about" className={`bg-gray-100 scroll-mt-10`}>
       <div className={`lg:max-w-screen-lg m-auto py-5 md:py-10 px-4 md:flex`}>
         <div className={`md:flex-1 order-1`}>
           <h3 className={`text-2xl text-gray-400 font-medium`}>About Me</h3>
@@ -14,10 +14,11 @@ const About = () => {
           </p>
         </div>
 
+        {/* Social Section Container */}
         <div className={`flex-1 space-y-2 mt-10 md:mt-0`}>
           <h3 className={`text-2xl text-gray-400 font-medium`}>Social</h3>
           <a href="" className={`flex items-center`}>
-            <img src={inbox} alt="facebook logo" className={`size-8`} />
+            <img src={inbox} alt="email logo" className={`size-8`} />
             <p className={`ml-2`}>acoblaren2006@gmail.com</p>
           </a>
           <a href="" className={`flex items-center`}>

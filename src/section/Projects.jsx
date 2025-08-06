@@ -3,19 +3,19 @@ import { projectLinks } from "../static/index.js";
 
 const Projects = () => {
   return (
-    <section className={`lg:max-w-screen-lg m-auto`}>
+    <section className={`lg:max-w-screen-lg mx-auto`}>
       <h3 className={`text-2xl text-gray-400 font-medium text-center mt-6`}>
         Projects
       </h3>
       <div
-        className={`grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-center mx-4 pt-10 pb-10 gap-4`}
+        className={`grid md:grid-cols-3 lg:grid-cols-4  mx-4 py-10 gap-2 items-stretch`}
       >
         {projectLinks.map((e, index) => (
           <Project
           key={index}
             title={e.title}
             description={e.description}
-            tag={e.tags.map((e, i) => (<span key={i} className={`text-sm font-mono ${e.color} rounded-lg px-2`}>{e.tag}</span>))}
+            tag={e.tags.map((e, i) => (<span key={i} className={`text-sm font-medium ${e.color} rounded-xl px-2`}>{e.tag}</span>))}
             link={e.links}
           />
         ))}

@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { Navigation, Hero, About, Projects, Footer } from "./section/index.js";
+import { Navigation, Hero, About, Projects, Services, Footer } from "./section/index.js";
 
 function App() {
 
@@ -9,6 +9,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
+      <Services />
     </Fragment>
   )
 }

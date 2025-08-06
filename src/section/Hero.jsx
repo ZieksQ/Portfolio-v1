@@ -1,4 +1,5 @@
 import { profile } from "../assets/index.js"
+import { techstackLinks } from "../static/index.js"
 
 const Hero = () => {
   return (
@@ -7,7 +8,15 @@ const Hero = () => {
 
             <h1 className={`text-6xl font-extrabold bg-gradient-to-r from-cyan-400 to-violet-400 bg-clip-text text-transparent uppercase`}>Laren Jay Acob</h1>
             <p className={`text-md text-gray-500 font-bold font-mono`}>Web Developer, Student, BSIT</p>
-            <button className={`mt-4 px-4 py-2 bg-gradient-to-r from-cyan-500 to-violet-500 hover:from-cyan-600 hover:to-violet-600 active:from-cyan-700 active:to-violet-700 text-white font-medium rounded-md shadow-lg`}>Download CV</button>
+            <button className={`mt-4 px-4 py-2 bg-gradient-to-r from-cyan-500 to-violet-500 hover:from-cyan-600 hover:to-violet-600 active:from-cyan-700 active:to-violet-700 text-white font-medium rounded-md shadow-lg cursor-pointer`}>Download CV</button>
+            <div className={`mt-1 flex space-x-2`}>
+              {techstackLinks.map((e, index) => (
+                <a key={index} href={e.link} target="_blank" rel="noopener noreferrer" title={e.title}>
+                  <img src={e.img} className={`size-4 cursor-pointer`}/>
+                </a>
+                
+              ))}
+            </div>
         </div>
 
         <div className={`lg:w-[50%] flex items-center justify-center md:order-2`}>
