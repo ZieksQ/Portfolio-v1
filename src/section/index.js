@@ -4,6 +4,7 @@ import Hero from "./Hero.jsx";
 import About from "./About.jsx";
 import Projects from "./Projects.jsx";
 import Services from "./Services.jsx";
+import Contact from "./Contact.jsx";
 
 export {
     Navigation,
@@ -12,4 +13,5 @@ export {
     About,
     Projects,
     Services,
+    Contact,
 }

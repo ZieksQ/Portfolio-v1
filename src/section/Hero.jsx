@@ -3,7 +3,7 @@ import { techstackLinks } from "../static/index.js"
 
 const Hero = () => {
   return (
-    <section id="hero" className={`mt-15 w-full py-20 lg:py-30 lg:max-w-screen-lg  flex flex-col md:flex-row m-auto justify-center lg:items-center`}>
+    <section id="home" className={`mt-15 w-full py-20 lg:py-30 lg:max-w-screen-lg  flex flex-col md:flex-row m-auto justify-center lg:items-center`}>
         <div className={`px-6 lg:px-0 lg:w-[50%] order-2 mt-6 lg:mt-0`}>
 
             <h1 className={`text-6xl font-extrabold bg-gradient-to-r from-cyan-400 to-violet-400 bg-clip-text text-transparent uppercase`}>Laren Jay Acob</h1>

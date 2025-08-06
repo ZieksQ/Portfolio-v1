@@ -10,7 +10,7 @@ const Navigation = () => {
   };
 
   return (
-    <header className={`fixed w-full top-0 left-0 bg-blue-400`}>
+    <header className={`fixed w-full top-0 left-0 bg-cyan-900`}>
       <nav
         className={`w-full lg:max-w-screen-xl lg:mx-auto py-4 px-8 lg:px-16 flex flex-wrap justify-between items-center`}
       >
@@ -57,7 +57,7 @@ const Navigation = () => {
               <li key={index}>
                 <a
                   href={e.id}
-                  className={`block w-full py-1 lg:py-0 lg:border-b-2 lg:hover:border-b-cyan-900 lg:border-b-transparent hover:text-cyan-900 cursor-pointer`}
+                  className={`block w-full py-1 lg:py-0 lg:border-b-2 lg:hover:border-b-cyan-600 lg:active:border-b-cyan-700 lg:border-b-transparent hover:text-cyan-600 active:text-cyan-700 cursor-pointer`}
                   onClick={handleMenuClick}
                 >
                   {e.title}

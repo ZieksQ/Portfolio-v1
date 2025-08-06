@@ -3,13 +3,13 @@ import { projectLinks } from "../static/index.js";
 
 const Projects = () => {
   return (
-    <section className={`bg-gray-200 pt-2`}>
+    <section id="projects" className={`bg-gray-200 pt-2 scroll-mt-10`}>
       <div className={`lg:max-w-screen-lg mx-auto`}>
         <h3 className={`text-2xl text-gray-400 font-medium text-center mt-6`}>
         Projects
       </h3>
       <div
-        className={`grid md:grid-cols-3 lg:grid-cols-4  mx-4 py-10 gap-2 items-stretch`}
+        className={`grid md:grid-cols-3 lg:grid-cols-4 mx-4 py-10 gap-2 items-stretch`}
       >
         {projectLinks.map((e, index) => (
           <Project
