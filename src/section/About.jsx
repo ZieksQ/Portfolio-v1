@@ -7,22 +7,34 @@ const About = () => {
         <div className={`md:flex-1 order-1`}>
           <h3 className={`text-2xl text-gray-400 font-medium`}>About Me</h3>
           <p className={`text-sm`}>
-            I'm a passionate developer, interested in building modern, user-friendly web applications. I enjoy exploring and learning various technologies to improve my skills. I aim to to be full stack developer. I am also interested in Game Development.
+            I'm a passionate developer, interested in building modern,
+            user-friendly web applications. I enjoy exploring and learning
+            various technologies to improve my skills. I aim to to be full stack
+            developer. I am also interested in Game Development.
           </p>
         </div>
 
         {/* Social Section Container */}
         <div className={`flex-1 space-y-2 mt-10 md:mt-0`}>
           <h3 className={`text-2xl text-gray-400 font-medium`}>Social</h3>
-          <a href="mailto:acoblaren2006@gmail.com" className={`flex items-center`}>
+          <a
+            href="mailto:acoblaren2006@gmail.com"
+            className={`flex items-center`}
+          >
             <img src={inbox} alt="email logo" className={`size-8`} />
             <p className={`ml-2`}>acoblaren2006@gmail.com</p>
           </a>
-          <a href="https://web.facebook.com/laren.jay.acob/" className={`flex items-center`}>
+          <a
+            href="https://web.facebook.com/laren.jay.acob/"
+            className={`flex items-center`}
+          >
             <img src={facebook} alt="facebook logo" className={`size-8`} />
             <p className={`ml-2`}>Laren Jay Acob</p>
           </a>
-          <a href="https://www.linkedin.com/in/laren-jay-acob-642824314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className={`flex items-center`}>
+          <a
+            href="https://www.linkedin.com/in/laren-jay-acob-642824314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            className={`flex items-center`}
+          >
             <img src={linkedin} alt="linkedin logo" className={`size-8`} />
             <p className={`ml-2`}>Laren Jay Acob</p>
           </a>
