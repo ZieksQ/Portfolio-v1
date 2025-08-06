@@ -3,8 +3,9 @@ import { projectLinks } from "../static/index.js";
 
 const Projects = () => {
   return (
-    <section className={`lg:max-w-screen-lg mx-auto`}>
-      <h3 className={`text-2xl text-gray-400 font-medium text-center mt-6`}>
+    <section className={`bg-gray-200 pt-2`}>
+      <div className={`lg:max-w-screen-lg mx-auto`}>
+        <h3 className={`text-2xl text-gray-400 font-medium text-center mt-6`}>
         Projects
       </h3>
       <div
@@ -20,6 +21,8 @@ const Projects = () => {
           />
         ))}
       </div>
+      </div>
+      
     </section>
   );
 };

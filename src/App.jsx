@@ -8,8 +8,8 @@ function App() {
       <Navigation />
       <Hero />
       <About />
-      <Projects />
       <Services />
+      <Projects />
     </Fragment>
   )
 }

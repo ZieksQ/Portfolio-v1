@@ -3,7 +3,7 @@ import { serviceLinks } from "../static/index.js";
 
 const Services = () => {
   return (
-    <section className={`bg-gray-200`}>
+    <section id="services" className={`pt-2 scroll-mt-10`}>
       <div className={`lg:max-w-screen-lg mx-auto`}>
         <h3 className={`text-2xl text-gray-400 font-medium text-center mt-6`}>
           Services
